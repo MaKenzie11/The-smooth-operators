@@ -1,0 +1,128 @@
+p {
+ color: green;
+}
+h1 {
+ font-size: 55px;
+ text-align: center;
+}
+p, li {
+ font-size: 15px;
+ line-height: 2;
+ letter-spacing: 1px;
+ display: inline;
+}
+ul { 
+ list-style-type: none;
+ font-family: times;
+}
+html {
+ background: linear-gradient(to bottom,#003300,#61A48A,#E9E96E);
+}
+body {
+ width: 600px;
+ margin: 0 auto;
+ background-color: white;
+ padding: 0 20px 20px 20px;
+ border: 5px solid black;
+ border-radius: 5px;
+}
+h1 {
+ margin: 0;
+ padding: 20px 0;
+ color: green;
+ text-shadow: 3px 3px 1px #e7c555;
+ font-family: Work sans;
+}
+img {
+ display: block;
+ margin: 0 auto;
+}
+nav {
+  margin:10px;
+  width: 300px center;
+  height: 35px;
+  padding: 0 20px 20px 0px;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 4px 6px black;
+  text-align: center;
+  line-height: 0;
+  letter-spacing: 10px;
+}
+ nav{
+  background: linear-gradient(to bottom,#003300, #b2deaf,#E9E96E);
+}
+.footer{
+  position: fixed;
+  position: fixed;
+ }
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  padding: 70px 19px;
+  width: 93%;
+  background: #CCB658;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 15px;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 12.6%;
+  color: #666;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 30px 40px 40px;
+  background: #eee;
+  margin: 0;
+  font-size: 19px;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-left: -3px;
+  font-size:20px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: green;
+  color: white !important
+}
+ .paragraph {
+ text-align: right;
+}
